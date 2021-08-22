@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Manifest name="Mobile App" id="fa842f12-f2e2-4725-b133-2f0a4d815e95" version="1.0.0.24" author="LOCUSDEV\tmartin" />
+  <ThreatMetaData>
+    <IsPriorityUsed>true</IsPriorityUsed>
+    <IsStatusUsed>true</IsStatusUsed>
+    <PropertiesMetaData>
+      <ThreatMetaDatum>
+        <Name>Title</Name>
+        <Label>Title</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Id>4c4ba738-393e-4f74-914b-092810ad28fe</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>UserThreatCategory</Name>
+        <Label>Category</Label>
+        <HideFromUI>false</HideFromUI>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>UserThreatShortDescription</Name>
+        <Label>Short Description</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Id>ebdc8c5e-173a-4bef-bd9f-2e1ddd0416bf</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>UserThreatDescription</Name>
+        <Label>Description</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Id>d08cf2e2-29a9-402c-9316-f4ce2e128ede</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>StateInformation</Name>
+        <Label>Justification</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Id>b97b5902-9c19-4413-99a6-1df5c4749c0e</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>InteractionString</Name>
+        <Label>Interaction</Label>
+        <HideFromUI>false</HideFromUI>
+        <Id>94459284-f516-4005-bc29-5221eac10a37</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>Priority</Name>
+        <Label>Priority</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value>High</Value>
+          <Value>Medium</Value>
+          <Value>Low</Value>
+        </Values>
+        <Description>Priority</Description>
+        <Id>97481859-6d6a-4911-9196-02a6bef5bf5a</Id>
+        <AttributeType>1</AttributeType>
+      </ThreatMetaDatum>
+    </PropertiesMetaData>
+  </ThreatMetaData>
+  <GenericElements>
+    <ElementType>
+      <Name>Mobile Flows</Name>
+      <ID>35ff243a-1f9b-4f66-8729-7f5662a83a66</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Line</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Internal Datastore</Name>
+      <ID>9ae0b272-7e7d-4770-8ec4-dd5acc2ae25b</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Database</Name>
+      <ID>04c00f78-de3b-41c1-ae68-5a68a51b1054</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>External Storage</Name>
+      <ID>2c63ca1a-1194-48a5-a6fe-25a69f05cba1</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Native Application</Name>
+      <ID>4b92a081-b286-4abe-84f1-b14ae98f6c29</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes>
+        <Attribute>
+          <Id>916c577b-e859-443c-89f6-87c0f573d0e1</Id>
+          <IsInherited>false</IsInherited>
+          <Name>0e15afcc-4b15-43bd-98f1-bf491fbfb67e</Name>
+          <DisplayName>New Property Attribute</DisplayName>
+          <Mode>Static</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>New Property Attribute Value</Value>
+          </AttributeValues>
+        </Attribute>
+      </Attributes>
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>External Application</Name>
+      <ID>836148f5-a49b-41aa-a5a0-2ae0a33e8c28</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Generic Boundary</Name>
+      <ID>bc30ba4b-a916-4cfc-851b-2d64f46e5fe0</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>BorderBoundary</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Free Text Annotation</Name>
+      <ID>GE.A</ID>
+      <Description>A representation of an annotation.</Description>
+      <ParentElement>ROOT</ParentElement>
+      <Hidden>true</Hidden>
+      <Representation>Annotation</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <Attributes />
+      <StencilConstraints />
+    </ElementType>
+  </GenericElements>
+  <StandardElements>
+    <ElementType>
+      <Name>Physical</Name>
+      <ID>c4d4e2fd-96c2-4375-9ed9-0a551702f61d</ID>
+      <Description>physical access to device</Description>
+      <ParentElement>35ff243a-1f9b-4f66-8729-7f5662a83a66</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Line</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Adjcent</Name>
+      <ID>97fca7c3-c894-4f0d-bdea-186a9124869e</ID>
+      <Description>ex: Bluetooth, NFC</Description>
+      <ParentElement>35ff243a-1f9b-4f66-8729-7f5662a83a66</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Line</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Network</Name>
+      <ID>891f622f-eafe-4fa7-9a60-bc28cf243324</ID>
+      <Description />
+      <ParentElement>35ff243a-1f9b-4f66-8729-7f5662a83a66</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Line</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>NSUserDefaults</Name>
+      <ID>f34bc726-e111-4de3-8ada-de64dbdaab44</ID>
+      <Description>iOS</Description>
+      <ParentElement>9ae0b272-7e7d-4770-8ec4-dd5acc2ae25b</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>CoreData</Name>
+      <ID>4234a6a9-ac81-45a0-9423-f4017c8e351d</ID>
+      <Description>iOS</Description>
+      <ParentElement>9ae0b272-7e7d-4770-8ec4-dd5acc2ae25b</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Shared Preferences</Name>
+      <ID>b6e302ac-83ad-462b-96df-d5ee3f11bcc8</ID>
+      <Description>Android</Description>
+      <ParentElement>9ae0b272-7e7d-4770-8ec4-dd5acc2ae25b</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Cache File</Name>
+      <ID>9868792b-801b-4261-8e3a-146cc39462f5</ID>
+      <Description />
+      <ParentElement>9ae0b272-7e7d-4770-8ec4-dd5acc2ae25b</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Android Filesystem</Name>
+      <ID>a294c541-acbe-451b-8e81-a67e80de58fa</ID>
+      <Description>Android</Description>
+      <ParentElement>9ae0b272-7e7d-4770-8ec4-dd5acc2ae25b</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>iOS Filesystem</Name>
+      <ID>1deb9f99-022e-4d8c-8c5e-df8043174658</ID>
+      <Description>iOS</Description>
+      <ParentElement>9ae0b272-7e7d-4770-8ec4-dd5acc2ae25b</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>SQLite Database</Name>
+      <ID>96cb9f55-236a-4769-8067-79735648b8cb</ID>
+      <Description />
+      <ParentElement>04c00f78-de3b-41c1-ae68-5a68a51b1054</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Couchbase Lite</Name>
+      <ID>0fab896d-32a8-489c-b13c-ad65c7933104</ID>
+      <Description />
+      <ParentElement>04c00f78-de3b-41c1-ae68-5a68a51b1054</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Realm DB</Name>
+      <ID>e05f5cfe-781d-4cd2-b0f0-d6adab23d795</ID>
+      <Description />
+      <ParentElement>04c00f78-de3b-41c1-ae68-5a68a51b1054</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Firebase DB</Name>
+      <ID>289c21a9-62ed-4242-8e0e-e0affef323c6</ID>
+      <Description />
+      <ParentElement>04c00f78-de3b-41c1-ae68-5a68a51b1054</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>SD Card</Name>
+      <ID>66454938-8ee2-4a4f-9677-6bd68737795e</ID>
+      <Description />
+      <ParentElement>2c63ca1a-1194-48a5-a6fe-25a69f05cba1</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Cloud Storage</Name>
+      <ID>789decdd-31ff-4f0e-945d-a36377706b82</ID>
+      <Description />
+      <ParentElement>2c63ca1a-1194-48a5-a6fe-25a69f05cba1</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>SIM Card</Name>
+      <ID>486cb9bc-c4cb-42a5-b63a-be258b35ab27</ID>
+      <Description />
+      <ParentElement>2c63ca1a-1194-48a5-a6fe-25a69f05cba1</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>ParallelLines</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Android App</Name>
+      <ID>ef00db07-3651-4dd3-81da-a8ffaae8c3ee</ID>
+      <Description />
+      <ParentElement>4b92a081-b286-4abe-84f1-b14ae98f6c29</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>iOS App</Name>
+      <ID>40d16de3-469e-4580-8673-a424154b7e5f</ID>
+      <Description />
+      <ParentElement>4b92a081-b286-4abe-84f1-b14ae98f6c29</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Cloud Web App</Name>
+      <ID>a9a18e67-ce79-4242-bacb-b829bc4f7cdc</ID>
+      <Description />
+      <ParentElement>836148f5-a49b-41aa-a5a0-2ae0a33e8c28</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>API Backend Service</Name>
+      <ID>8d702117-1bfa-4e0a-bbbf-bf7ef2931e37</ID>
+      <Description />
+      <ParentElement>836148f5-a49b-41aa-a5a0-2ae0a33e8c28</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>IoT Device</Name>
+      <ID>a6a86d9b-ae43-4216-a97d-43f60862a145</ID>
+      <Description />
+      <ParentElement>836148f5-a49b-41aa-a5a0-2ae0a33e8c28</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Gateway</Name>
+      <ID>e9f8d6dd-69f9-4858-9504-30aa1a093a40</ID>
+      <Description />
+      <ParentElement>836148f5-a49b-41aa-a5a0-2ae0a33e8c28</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Device Boundary</Name>
+      <ID>c64e5cb4-03aa-43f7-bd90-d540b6d7f7c7</ID>
+      <Description />
+      <ParentElement>bc30ba4b-a916-4cfc-851b-2d64f46e5fe0</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>BorderBoundary</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Cloud Boundary</Name>
+      <ID>ea04d787-57ea-4485-9fb4-7d3d8721095e</ID>
+      <Description />
+      <ParentElement>bc30ba4b-a916-4cfc-851b-2d64f46e5fe0</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>BorderBoundary</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Application Boundary</Name>
+      <ID>8c5a3325-b150-447f-843c-e5789f5b439d</ID>
+      <Description />
+      <ParentElement>bc30ba4b-a916-4cfc-851b-2d64f46e5fe0</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>BorderBoundary</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+  </StandardElements>
+  <ThreatCategories />
+  <ThreatTypes />
+</KnowledgeBase>
